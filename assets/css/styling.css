@@ -1,0 +1,52 @@
+/* Body style */
+body {
+    background: linear-gradient(135deg, #7e7e7e, #424242);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+}
+
+/* Font style for headings and paragraphs */
+h1, h2, h4, p {
+    font-family: 'Amiko', sans-serif;
+}
+
+/* Style for Header containers */
+.header-container, .header-section {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header-container {
+    background-color: #3f4041;
+}
+
+.header-container h1, .header-section h1 {
+    margin-bottom: 0; /* Remove margin-bottom for h1 within header-container */
+}
+
+/* Style for content containers */
+.content-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* Style for image containers */
+.img-container {
+    text-align: center;
+}
+
+/* Responsive style for images */
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+/* Add this style for centering the text */
+.center-text {
+    text-align: left;
+}
